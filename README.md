@@ -40,8 +40,6 @@ Input gate updates the cell state and decides which information is important and
 The gathered information was used to calculate the new cell state. The cell state has the capability that store and load information. The incorporated data from the previous step get passed on to the next step.
 The last output gate decides what the next hidden state should be. The output of the forget gate tells the cell state which information to forget by multiplying 0 to a position in the matrix. If the output of the forget gate is 1, the information is kept in the cell state
 
-
-## Conclusion:
 Based on the results and the characteristics of the model, the conclusion of this task summarizes below. 
 
 Above-stated all the models have their characteristics and they perform well in their playground. The model trained on 20000 subsamples with same batch size of test 32 and train 16 for 100 iterations.
